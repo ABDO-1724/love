@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>kenza pogossa</title>
+  <link rel='stylesheet' href='https://fonts.googleapis.com/css2?family=Short+Stack&amp;family=Homemade+Apple&amp;display=swap'>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Zeyada&display=swap');
+
+
+
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+  background-color: #b3ecf1;
+}
+
+.paper {
+  background-image: url("images/peper (1).jpg");
+  background-size: 900px;
+  background-position: center center;
+  padding: 20px 100px;
+/*  min-width: 800px; */
+  
+  transform: rotateZ(-5deg);
+  box-shadow: 1px 15px 20px 0px rgba(0,0,0,0.5);
+  
+  position: absolute;
+}
+
+.paper.heart {
+  position: relative;
+  width: 250px;
+  height: 250px;
+  padding: 0;
+  border-radius: 50%;
+}
+
+.paper.image {
+  padding: 10px;
+}
+.paper.image p {
+  font-size: 50px;
+}
+
+img {
+  max-height: 400px;
+  width: 100%;
+  user-select: none;
+}
+
+.paper.heart::after {
+  content: "";
+  background-image: url('images/heart (1).gif');
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-size: 200px;
+  background-position: center center;
+  background-repeat: no-repeat;
+  opacity: 0.6;
+}
+
+p {
+  font-family: 'Zeyada';
+  font-size: 60px;
+  color: rgb(0,0,100);
+  opacity: 0.75;
+  user-select: none;
+ 
+  box-shadow: 2px 1.5px 1px rgba(0,0,105,0.9);
+  text-shadow: 2px 1.5px 1px rgba(0,0,105,0.9);
+ }
+
+ .pics{
+  display: flex;
+ }
+
+ .pic1{
+  width: 300px;
+  height: 350px;
+  object-fit: cover;
+  object-position: center;
+ }
+
+ .pic2{
+  width: 300px;
+  height: 350px;
+  object-fit: cover;
+  object-position: center;
+ }
+
+
+ .pic4{
+  width: 500px;
+  object-fit: cover;
+  object-position: center;
+ }
+
+</style>
+
+</head>
+<body>
+  <p><a href="doyouwannagooutwithme.html">click me</a></p>
+
+<div class="paper heart">
+
+</div>
+
+  
+<div class="paper image">
+  <p>but i can do better for u </p>
+    <p>cause i love YOU!!! 😩 </p>
+   <img class="pic4" src="images/pic4.jpg">
+</div>
+<div class="paper"><p>Can't imagine my future without u<br>soo im sorry if im always hurting u </p></div> 
+
+<div class="paper"><p>I chose u cuz i wanna <br> spend the rest of my life with u ...</p></div> <div class="paper image">
+  <p< p="">
+  <img class="pic3" src="images/pic3.jpg">
+</p<></div>
+
+<div class="paper" >
+  <p class="p1">I know I'm not special and<br>You still loving me and hundling me !</p>
+  </div>
+
+<div class="paper image" >
+  <p>my other part  </p>
+   <p>that i was always looking for ❤️ <br> yet so kind and that beautiful...</p>
+
+  <div class="pics">
+    <img class="pic1" src="images/pic1.jpg">
+    <img class="pic2" src="images/pic2.jpg">
+  </div>
+</div>
+
+
+
+<div class="paper red" >
+<p class="p1"> and My Favorite</p>
+<p class="p2">Person (literally)😍</p>
+</div>
+
+<div class="paper" >
+<p class="p1">You are goergeous</p>
+  <p class="p1">special <span style="color: red !important;">❤️</span></p>
+</div>
+
+<div class="paper" >
+<p class="p1">Hello my everything 😘.<br>Drag the papers to move!</p>
+</div>
+  <script>
+
+  if ('ontouchstart' in window) {
+    // This is a mobile device
+    // Load mobile-specific script
+    var script = document.createElement('script');
+    script.src = 'mobile.js'; 
+    document.head.appendChild(script);
+  } else {
+    // This is a PC or a device with a mouse pointer
+    // Load PC-specific script
+    var script = document.createElement('script');
+    script.src = 'script.js'; 
+    document.head.appendChild(script);
+  }
+</script>
+
+</body>
+</html>
